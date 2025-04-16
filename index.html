@@ -56,7 +56,7 @@
                 <!-- Card 1 -->
                 <div class="card bg-white p-6 rounded-lg shadow-sm border border-slate-200 cursor-pointer" onclick="showPersonTasks('maria')">
                     <div class="flex flex-col items-center">
-                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Bianca" class="w-20 h-20 rounded-full mb-4 object-cover border-2 border-indigo-100">
+                        <img src="bianca.png" alt="Bianca" class="w-20 h-20 rounded-full mb-4 object-cover border-2 border-indigo-100">
                         <h2 class="text-xl font-semibold text-slate-800">Bianca Anjos</h2>
                         <p class="text-slate-500">Analista Sênior</p>
                     </div>
@@ -65,7 +65,7 @@
                 <!-- Card 2 -->
                 <div class="card bg-white p-6 rounded-lg shadow-sm border border-slate-200 cursor-pointer" onclick="showPersonTasks('ana')">
                     <div class="flex flex-col items-center">
-                        <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Ana" class="w-20 h-20 rounded-full mb-4 object-cover border-2 border-indigo-100">
+                        <img src="gizelle.png" alt="Ana" class="w-20 h-20 rounded-full mb-4 object-cover border-2 border-indigo-100">
                         <h2 class="text-xl font-semibold text-slate-800">Gizelle Mamede</h2>
                         <p class="text-slate-500">Analista Junior</p>
                     </div>
@@ -74,7 +74,7 @@
                 <!-- Card 3 -->
                 <div class="card bg-white p-6 rounded-lg shadow-sm border border-slate-200 cursor-pointer" onclick="showPersonTasks('joao')">
                     <div class="flex flex-col items-center">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Pedro" class="w-20 h-20 rounded-full mb-4 object-cover border-2 border-indigo-100">
+                        <img src="pedro.png" alt="Pedro" class="w-20 h-20 rounded-full mb-4 object-cover border-2 border-indigo-100">
                         <h2 class="text-xl font-semibold text-slate-800">Pedro Amorim</h2>
                         <p class="text-slate-500">Estagiário</p>
                     </div>
@@ -142,9 +142,9 @@
 
         // Dados iniciais (agora vamos buscar do Google Sheets)
         let people = {
-            maria: { name: "Bianca Anjos", role: "Analista Sênior", image: "https://randomuser.me/api/portraits/women/44.jpg" },
-            joao: { name: "Pedro Amorim", role: "Estagiário", image: "https://randomuser.me/api/portraits/men/32.jpg" },
-            ana: { name: "Gizelle Mamede", role: "Analista Junior", image: "https://randomuser.me/api/portraits/women/63.jpg" }
+            maria: { name: "Bianca Anjos", role: "Analista Sênior", image: "bianca.png" },
+            joao: { name: "Pedro Amorim", role: "Estagiário", image: "pedro.png" },
+            ana: { name: "Gizelle Mamede", role: "Analista Junior", image: "gizelle.png" }
         };
 
         let currentPerson = null;
